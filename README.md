@@ -1,10 +1,10 @@
 # USDJPY 3m OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-3_065_489_rows-blue)](https://getdata.finance/datasets/usdjpy) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usdjpy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-3_076_135_rows-blue)](https://getdata.finance/datasets/usdjpy) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usdjpy)
 
 ### -> [**Download the full USDJPY dataset on getdata.finance**](https://getdata.finance/datasets/usdjpy)
 
-**USDJPY 3m OHLCV forex historical data** — ultra high-quality 3m OHLCV for **US Dollar / Japanese Yen**. 24/5 market coverage — Asia, Europe and US sessions with institutional-style FX candles. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**USDJPY 3m OHLCV forex historical data** — ultra high-quality 3m OHLCV for **US Dollar / Japanese Yen**. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -22,13 +22,12 @@
 ## Why this dataset?
 
 - **Ultra high-quality 3m OHLCV** for **US Dollar / Japanese Yen** (Forex)
-- **24/5 market coverage — Asia, Europe and US sessions with institutional-style FX candles**
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3m`) · **9 timeframes** on [getdata.finance](https://getdata.finance/datasets/usdjpy) · **3,065,489** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`3m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/usdjpy) · **3,076,135** `3m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3m` sample updated in sync
 
-> **Sample on GitHub** · `USDJPY_3m.csv` (62,396 rows, `2026-02-01` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/usdjpy)** — **3,065,489** `1m` rows (~279.42 MB), **9 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W), `2001-11-28` -> `2026-07-31`.
+> **Sample on GitHub** · `USDJPY_3m.csv` (18,485 rows, `2026-07-09` -> `2026-09-02`, 1.78 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/usdjpy)** — **3,076,135** `3m` rows (full `1m`: 9,209,554), **11 timeframes**, `2001-11-28` -> `2026-09-02`.
 
 ## Download sample
 
@@ -45,21 +44,21 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/usdjpy))** |
 |---|--:|---|
 | Instrument | US Dollar / Japanese Yen · Forex | US Dollar / Japanese Yen · Forex |
-| Timeframes | `3m` (sample) | **9** — 1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W |
-| 1m rows | 62,396 | **3,065,489** |
-| Size | 6.18 MB | ~279.42 MB |
-| Period | `2026-02-01` -> `2026-07-31` | `2001-11-28` -> `2026-07-31` |
+| Timeframes | `3m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
+| 3m rows | 18,485 | **3,076,135** |
+| Size | 1.78 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/usdjpy) |
+| Period | `2026-07-09` -> `2026-09-02` | `2001-11-28` -> `2026-09-02` |
 | File | `USDJPY_3m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/usdjpy) |
 | Coverage report | — | [USDJPY coverage](https://getdata.finance/coverage/usdjpy) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
 
 ## Timeframes on GetData
 
-This GitHub repository ships a **`3m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/usdjpy)**, each full asset archive is delivered as a ZIP with **9 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`3m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/usdjpy)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **12H** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
-GitHub = `3m` sample · [getdata.finance](https://getdata.finance/datasets/usdjpy) = all **9** timeframes above for the same instrument.
+GitHub = `3m` sample · [getdata.finance](https://getdata.finance/datasets/usdjpy) = all **11** timeframes above for the same instrument.
 
 ## Weekly updates
 
@@ -76,21 +75,21 @@ First and latest rows from the GitHub sample **`USDJPY_3m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-01T22:12:00+00:00 | 156.033 | 156.037 | 156.005 | 156.006 | 28 |
-| 2026-02-01T22:15:00+00:00 | 156.006 | 156.086 | 156.005 | 156.085 | 151 |
-| 2026-02-01T22:18:00+00:00 | 156.085 | 156.197 | 156.074 | 156.17 | 183 |
-| 2026-02-01T22:21:00+00:00 | 156.17 | 156.21 | 156.149 | 156.207 | 225 |
-| 2026-02-01T22:24:00+00:00 | 156.207 | 156.319 | 156.197 | 156.287 | 118 |
+| 2026-07-09T13:09:00+00:00 | 163.023 | 163.034 | 163.015 | 163.029 | 169 |
+| 2026-07-09T13:12:00+00:00 | 163.029 | 163.043 | 163.024 | 163.024 | 202 |
+| 2026-07-09T13:15:00+00:00 | 163.024 | 163.025 | 162.903 | 162.965 | 830 |
+| 2026-07-09T13:18:00+00:00 | 162.965 | 162.999 | 162.964 | 162.986 | 811 |
+| 2026-07-09T13:21:00+00:00 | 162.986 | 162.994 | 162.967 | 162.975 | 466 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-31T20:45:00+00:00 | 158.368 | 158.461 | 158.302 | 158.37 | 2879 |
-| 2026-07-31T20:48:00+00:00 | 158.37 | 158.485 | 158.258 | 158.28 | 2620 |
-| 2026-07-31T20:51:00+00:00 | 158.28 | 158.64 | 158.23 | 158.531 | 3227 |
-| 2026-07-31T20:54:00+00:00 | 158.531 | 158.636 | 158.215 | 158.316 | 2372 |
-| 2026-07-31T20:57:00+00:00 | 158.316 | 158.331 | 157.957 | 158.181 | 340 |
+| 2026-09-02T01:48:00+00:00 | 160.379 | 160.387 | 160.369 | 160.373 | 340 |
+| 2026-09-02T01:51:00+00:00 | 160.373 | 160.392 | 160.372 | 160.383 | 366 |
+| 2026-09-02T01:54:00+00:00 | 160.383 | 160.384 | 160.362 | 160.384 | 353 |
+| 2026-09-02T01:57:00+00:00 | 160.384 | 160.384 | 160.36 | 160.368 | 251 |
+| 2026-09-02T02:00:00+00:00 | 160.368 | 160.379 | 160.368 | 160.378 | 56 |
 
 ## Schema
 
@@ -117,8 +116,6 @@ import pandas as pd
 df = pd.read_csv('USDJPY_3m.csv', parse_dates=['datetime'])
 df.set_index('datetime', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -151,15 +148,15 @@ close = df.set_index('datetime')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='3min')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **USDJPY** archive on **[getdata.finance](https://getdata.finance/datasets/usdjpy)** includes **9 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W) — **3,065,489** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **USDJPY** archive on **[getdata.finance](https://getdata.finance/datasets/usdjpy)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **3,076,135** rows at `3m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full USDJPY dataset on getdata.finance](https://getdata.finance/datasets/usdjpy)**
 
 ---
-*GetData · USDJPY 3m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/usdjpy) · 2026-08-04 UTC*
+*GetData · USDJPY 3m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/usdjpy)*
